@@ -1064,7 +1064,7 @@ zeroyt7.sendMessage(from, buttonMessage, { quoted: ftroli })
 }
 break
 case 'ytsearch': {
-if (!text) return reply(`Masukan Judul Nya\nContoh : ${prefix + command} Script Bot By Zero YT7`)
+if (!text) return reply(`Masukan Judul Nya\nContoh : ${prefix + command} Script Bot By ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`)
 reply(mess.wait)
 var yts = require("yt-search")
 var search = await yts(text)
@@ -1229,7 +1229,7 @@ await zeroyt7.sendButtonText(from, buttons, jawab, creator, ftroli, {mentions: m
 }
 break
 case 'nomerhoki': {
-if (!Number(text)) return reply(`Masukan Nomer Hp Nya\nContoh : ${prefix + command} 6281321776496`)
+if (!Number(text)) return reply(`Masukan Nomer Hp Nya\nContoh : ${prefix + command} 6281548926840`)
 var anu = await primbon.nomer_hoki(Number(text))
 if (anu.status == false) return reply(anu.message)
 txt = `*Nomor HP :* ${anu.message.nomer_hp}
@@ -1260,7 +1260,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'artinama': {
-if (!text) return reply(`Masukan Nama Nya\nContoh : ${prefix + command} Zero YT7`)
+if (!text) return reply(`Masukan Nama Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`)
 var anu = await primbon.arti_nama(text)
 if (anu.status == false) return reply(anu.message)
 txt = `*Nama :* ${anu.message.nama}
@@ -1270,7 +1270,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'ramaljodoh': {
-if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
+if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
 var [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 var anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return reply(anu.message)
@@ -1284,7 +1284,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'ramaljodohbali': {
-if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
+if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
 var [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 var anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return reply(anu.message)
@@ -1298,7 +1298,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'suamiistri': {
-if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
+if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
 var [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 var anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return reply(anu.message)
@@ -1312,7 +1312,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'ramalcinta': {
-if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
+if (!text) return reply(`Masukan Nama Kamu, Pasangan Kamu & Tgl Lahir Kalian\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003, Jomblo :v, 5, 6, 2003`)
 var [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 var anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return reply(anu.message)
@@ -1327,7 +1327,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'cocoknama': {
-if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003`)
+if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003`)
 var [nama, tgl, bln, thn] = text.split`,`
 var anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
 if (anu.status == false) return reply(anu.message)
@@ -1459,7 +1459,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'peruntungan': {
-if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003`)
+if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003`)
 var [nama, tgl, bln, thn, untuk] = text.split`,`
 var anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
 if (anu.status == false) return reply(anu.message)
@@ -1487,7 +1487,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'sifat': {
-if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003`)
+if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003`)
 var [nama, tgl, bln, thn] = text.split`,`
 var anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
 if (anu.status == false) return reply(anu.message)
@@ -1498,7 +1498,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case 'keberuntungan': {
-if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} Zero YT7, 6, 3, 2003`)
+if (!text) return reply(`Masukan Nama & Tgl Lahir Kamu\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×, 6, 3, 2003`)
 var [nama, tgl, bln, thn] = text.split`,`
 var anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
 if (anu.status == false) return reply(anu.message)
@@ -1572,7 +1572,7 @@ zeroyt7.sendText(from, txt, ftroli)
 }
 break
 case '3dbox': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/3d-box-text-effect-online-880.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1580,7 +1580,7 @@ maker.textpro("https://textpro.me/3d-box-text-effect-online-880.html", [`${q}`,]
 }
 break
 case 'drapwater': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1588,7 +1588,7 @@ maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [`${q}`,])
 }
 break
 case 'papercut': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-art-paper-cut-text-effect-online-1022.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1596,7 +1596,7 @@ maker.textpro("https://textpro.me/create-art-paper-cut-text-effect-online-1022.h
 }
 break
 case 'transformer': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-transformer-text-effect-online-1035.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1604,7 +1604,7 @@ maker.textpro("https://textpro.me/create-a-transformer-text-effect-online-1035.h
 }
 break
 case 'neondevil': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1612,7 +1612,7 @@ maker.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-fre
 }
 break
 case '3dstone': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1620,7 +1620,7 @@ maker.textpro("https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html", 
 }
 break
 case 'thunder': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1628,7 +1628,7 @@ maker.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html
 }  
 break
 case 'graffiti': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1638,7 +1638,7 @@ maker.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.h
 }
 break
 case 'pornhub': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1648,7 +1648,7 @@ maker.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.h
 }
 break
 case 'blackpink': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1656,7 +1656,7 @@ maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html",
 }
 break
 case 'glitch': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1664,7 +1664,7 @@ maker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1
 }
 break
 case 'glitch2': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1674,7 +1674,7 @@ maker.textpro("https://textpro.me/create-a-glitch-text-effect-online-free-1026.h
 }
 break
 case 'glitch3': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1684,7 +1684,7 @@ maker.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.ht
 }
 break
 case '3dspace': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1694,7 +1694,7 @@ maker.textpro("https://textpro.me/create-space-3d-text-effect-online-985.html", 
 }
 break
 case 'lion': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1704,7 +1704,7 @@ maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [`${
 }
 break
 case '3dneon': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1712,7 +1712,7 @@ maker.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.h
 }
 break
 case 'neon': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/neon-text-effect-online-879.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1720,7 +1720,7 @@ maker.textpro("https://textpro.me/neon-text-effect-online-879.html", [`${q}`,])
 }
 break
 case 'greenneon': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/green-neon-text-effect-874.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1728,7 +1728,7 @@ maker.textpro("https://textpro.me/green-neon-text-effect-874.html", [`${q}`,])
 }
 break
 case 'bokeh': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/bokeh-text-effect-876.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1736,7 +1736,7 @@ maker.textpro("https://textpro.me/bokeh-text-effect-876.html", [`${q}`,])
 }
 break
 case 'hollographic': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/holographic-3d-text-effect-975.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1744,7 +1744,7 @@ maker.textpro("https://textpro.me/holographic-3d-text-effect-975.html", [`${q}`,
 }
 break
 case 'bear': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1754,7 +1754,7 @@ maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creati
 }
 break
 case 'wolf': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7|Gantenk`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×|Gantenk`) 
 reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -1764,7 +1764,7 @@ maker.textpro("https://textpro.me/create-wolf-logo-galaxy-online-936.html", [`${
 }
 break
 case 'joker': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-logo-joker-online-934.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1772,7 +1772,7 @@ maker.textpro("https://textpro.me/create-logo-joker-online-934.html", [`${q}`,])
 }
 break
 case 'dropwater': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1780,7 +1780,7 @@ maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [`${q}`,])
 }
 break
 case 'neonlight': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-981.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1788,7 +1788,7 @@ maker.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-981.h
 }
 break
 case 'natural': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1796,7 +1796,7 @@ maker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", [`${q}`,
 }
 break
 case 'carbon': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/carbon-text-effect-833.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1804,7 +1804,7 @@ maker.textpro("https://textpro.me/carbon-text-effect-833.html", [`${q}`,])
 }
 break
 case 'pencil': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [`${q}`,])
 .then((data) => zeroyt7.sendMessage(from, { image: { url: data }, caption: creator }, { quoted: ftroli }))
@@ -1821,7 +1821,7 @@ case 'snow': case 'cloud': case 'honey': case 'ice': case 'fruitjuice': case 'bi
 case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'toxic': 
 case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': case 'joker': case 'wicker':
 case 'firework': case 'skeleton': case 'sand': case 'glue': case '1917': case 'leaves': {
-if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} Zero YT7`) 
+if (!text) return reply(`Masukan Teks Nya\nContoh : ${prefix + command} ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×`) 
 reply(mess.wait)
 var link
 if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
