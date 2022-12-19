@@ -820,7 +820,7 @@ reply(mess.wait)
 let mp3 = await quoted.download()
 let { toAudio } = require('../message/converter')
 let audio = await toAudio(mp3, 'mp4')
-zeroyt7.sendMessage(from, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ᴹᴿ᭄defα͢͢͢ή፝֟͜* ×፝֟͜×.mp3`}, { quoted : ftroli })
+zeroyt7.sendMessage(from, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By Zero YT7.mp3`}, { quoted : ftroli })
 }
 break
 case 'tovn': {
